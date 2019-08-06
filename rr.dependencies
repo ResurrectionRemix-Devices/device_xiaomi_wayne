@@ -1,0 +1,22 @@
+[
+ {  
+    "remote": "github",
+    "branch": "pie",
+    "repository": "resurrectionremix-devices/device_xiaomi_wayne-common",
+    "target_path": "device/xiaomi/wayne-common"
+ },
+ { 
+   "repository": "proprietary_vendor_xiaomi",
+   "target_path": "vendor/xiaomi"
+ },
+ {
+   "repository": "kernel_xiaomi_wayne-common",
+   "target_path": "kernel/xiaomi/wayne-common"
+ },
+ {
+    "repository": 
+"LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-16.0"
+ }
+]
