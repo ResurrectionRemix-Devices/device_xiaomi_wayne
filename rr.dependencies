@@ -6,14 +6,19 @@
     "target_path": "device/xiaomi/wayne-common"
  },
  { 
-   "repository": "proprietary_vendor_xiaomi",
+   "remote": "github",
+    "branch": "pie",
+   "repository": "aosip-devices/proprietary_vendor_xiaomi",
    "target_path": "vendor/xiaomi"
  },
  {
-   "repository": "kernel_xiaomi_wayne-common",
+   "remote": "github",
+    "branch": "pie",
+   "repository": "aosip-devices/kernel_xiaomi_wayne-common",
    "target_path": "kernel/xiaomi/wayne-common"
  },
  {
+    "remote": "github",
     "repository": 
 "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
