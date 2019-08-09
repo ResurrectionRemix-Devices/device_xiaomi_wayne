@@ -29,7 +29,7 @@ DEVICE_PATH := device/xiaomi/wayne
 SKIP_ABI_CHECKS := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := wayne_defconfig
+TARGET_KERNEL_CONFIG := neon_defconfig
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
