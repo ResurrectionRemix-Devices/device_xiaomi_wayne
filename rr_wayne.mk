@@ -26,7 +26,8 @@ $(call inherit-product, device/xiaomi/wayne/device.mk)
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 ALLOW_MISSING_DEPENDENCIES := true
-SKIP_ABI_CHECKS := true
+
+export SKIP_ABI_CHECKS := true
 
 PRODUCT_NAME := rr_wayne
 PRODUCT_BRAND := Xiaomi
