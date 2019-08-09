@@ -13,8 +13,8 @@
  },
  {
    "remote": "github",
-    "branch": "wayne-common",
-   "repository": "kenny3fcb/kernel_xiaomi_jasmine_sprout",
+    "branch": "pie",
+   "repository": "rebenok90x/neonkernel",
    "target_path": "kernel/xiaomi/wayne-common"
  },
  {
