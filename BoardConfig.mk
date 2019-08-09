@@ -26,6 +26,8 @@
 
 DEVICE_PATH := device/xiaomi/wayne
 
+SKIP_ABI_CHECKS := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := wayne_defconfig
 
