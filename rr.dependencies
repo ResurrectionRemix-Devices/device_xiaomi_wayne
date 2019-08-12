@@ -6,9 +6,9 @@
     "target_path": "device/xiaomi/wayne-common"
  },
  { 
-   "remote": "github",
-    "branch": "pie",
-   "repository": "aosip-devices/proprietary_vendor_xiaomi",
+   "remote": "gitlab",
+    "branch": "master",
+   "repository": "rebenok90x/my-awesome-af-project",
    "target_path": "vendor/xiaomi"
  },
  {
