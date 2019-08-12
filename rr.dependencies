@@ -7,15 +7,9 @@
  },
  { 
    "remote": "github",
-    "branch": "master",
-   "repository": "evolution-x-devices/vendor_xiaomi_wayne",
-   "target_path": "vendor/xiaomi/wayne"
- },
-   { 
-   "remote": "github",
-    "branch": "master",
-   "repository": "evolution-x-devices/vendor_xiaomi_sdm660-common",
-   "target_path": "vendor/xiaomi/wayne-common"
+    "branch": "pie",
+   "repository": "evolution-x-devices/proprietary_vendor_xiaomi_new",
+   "target_path": "vendor/xiaomi"
  },
  {
    "remote": "github",
