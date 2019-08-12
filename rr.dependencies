@@ -6,10 +6,16 @@
     "target_path": "device/xiaomi/wayne-common"
  },
  { 
-   "remote": "gitlab",
+   "remote": "github",
     "branch": "master",
-   "repository": "rebenok90x/my-awesome-af-project",
-   "target_path": "vendor/xiaomi"
+   "repository": "evolution-x-devices/vendor_xiaomi_wayne",
+   "target_path": "vendor/xiaomi/wayne"
+ },
+   { 
+   "remote": "github",
+    "branch": "master",
+   "repository": "evolution-x-devices/vendor_xiaomi_sdm660-common",
+   "target_path": "vendor/xiaomi/wayne-common"
  },
  {
    "remote": "github",
