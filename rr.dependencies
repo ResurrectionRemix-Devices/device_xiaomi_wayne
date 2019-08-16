@@ -13,7 +13,7 @@
  },
  {
    "remote": "github",
-    "branch": "pie",
+    "branch": "jasmine",
    "repository": "rebenok90x/neonkernel",
    "target_path": "kernel/xiaomi/wayne-common"
  },
