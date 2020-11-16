@@ -95,9 +95,9 @@ PRODUCT_COPY_FILES += \
 # Vendor files
 $(call inherit-product, vendor/xiaomi/wayne-common/wayne-common-vendor.mk)
 
-# AOSP DEVICE
-PRODUCT_NAME := aosp_wayne
+# RR DEVICE
+PRODUCT_NAME := rr_wayne
 PRODUCT_DEVICE := wayne
-PRODUCT_MODEL := Mi 6X (AOSP)
+PRODUCT_MODEL := Mi 6X (RR)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi

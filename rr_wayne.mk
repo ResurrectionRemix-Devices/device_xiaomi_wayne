@@ -24,11 +24,9 @@
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/wayne/device.mk)
 
-# Inherit Carbon GSM telephony parts
-$(call inherit-product, vendor/carbon/config/gsm.mk)
-
-# Inherit Carbon product configuration
-$(call inherit-product, vendor/carbon/config/common.mk)
+# Inherit RR product configuration
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+WITH_GMS := true
 
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
@@ -37,16 +35,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="wayne-user 9 PKQ1.180904.001 V10.3.4.0.PDCCNXM release-keys"
 
-# CarbonRom Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.carbon.maintainer="Rcstar6696"
-
 # Density
 TARGET_SCREEN_DENSITY := 400
 
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := carbon_wayne
+PRODUCT_NAME := rr_wayne
 PRODUCT_DEVICE := wayne
 PRODUCT_MODEL := MI 6X
+
+# GAPPS
+$(call inherit-product, vendor/gapps/gapps.mk)
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+
+# Resurrection Remix
+TARGET_FACE_UNLOCK_SUPPORTED := true
+RR_BUILDTYPE := Official
